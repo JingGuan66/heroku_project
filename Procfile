@@ -1,1 +1,1 @@
-web: gunicorn yang_worker.wsgi --log-file -
+web: gunicorn heroku_jing.wsgi --log-file -
